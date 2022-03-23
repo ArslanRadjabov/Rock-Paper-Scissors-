@@ -73,8 +73,8 @@ const restartGame = () => {
     hands.style.display = "flex";
 }
 
-const setDecision = (decision) => {
-    document.querySelector(".decision h1").innerText = decision;
+const setDecision = (xulosa) => {
+    document.querySelector(".xulosa h1").innerText = xulosa;
 }
 
 const setScore = (newScore) => {
