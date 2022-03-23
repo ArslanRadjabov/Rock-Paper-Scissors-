@@ -205,6 +205,13 @@ p {
     flex-direction: column;
 }
 
+.created {
+    top: 50px;
+    // position: absolute;
+    font-size: 15px;
+    color: rgb(17, 207, 255);
+}
+
 @media screen and (max-width: 576px) {
     .score {
         width: 119px;

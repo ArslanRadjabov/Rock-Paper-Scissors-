@@ -327,6 +327,12 @@ p {
           flex-direction: column;
 }
 
+.created {
+  top: 50px;
+  font-size: 15px;
+  color: #11cfff;
+}
+
 @media screen and (max-width: 576px) {
   .score {
     width: 119px;
