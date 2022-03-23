@@ -64,12 +64,6 @@ const referee = (userHand, bot) => {
     }
 
 };
-// if (SCORE == 5) {
-//     alert("USER WIN");
-//     // break;
-// } else {
-//     alert("Bot WIN");
-// }
 
 const restartGame = () => {
     let contest = document.querySelector(".contest");

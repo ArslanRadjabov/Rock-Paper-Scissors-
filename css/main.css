@@ -97,12 +97,15 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 50px;
+  margin-top: 10px;
   padding: 20px 0;
+  position: relative;
 }
 
 .names {
-  color: #fff !important;
+  top: 20px;
+  position: absolute;
+  color: #fa1b1b !important;
   margin-top: 10px;
 }
 
@@ -111,7 +114,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-left: 30px;
   text-align: center;
 }
 
@@ -246,7 +248,8 @@ p {
 .contest {
   display: none;
   margin-top: 50px;
-  width: 900px;
+  max-width: 900px;
+  width: 100%;
 }
 
 .contest img {
@@ -322,5 +325,43 @@ p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media screen and (max-width: 576px) {
+  .score {
+    width: 119px;
+    height: 116px;
+  }
+  .score2 {
+    width: 129px;
+    height: 126px;
+  }
+  .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .scoreboard {
+    width: 100%;
+  }
+  .hands img {
+    max-width: 200px;
+    max-height: 200px;
+  }
+  .contest .newGame {
+    color: #3b4363;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    -webkit-transition: all 0.15s;
+    transition: all 0.15s;
+  }
+  .contest .handImageContainer img {
+    max-width: 150px;
+    width: 100%;
+    max-height: 150px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
