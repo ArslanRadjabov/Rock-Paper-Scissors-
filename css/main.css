@@ -98,6 +98,11 @@ body {
       -ms-flex-align: center;
           align-items: center;
   margin-top: 50px;
+  padding: 20px 0;
+}
+
+.names {
+  color: #fff;
 }
 
 .title {
